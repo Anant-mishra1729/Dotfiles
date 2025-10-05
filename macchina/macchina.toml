@@ -1,0 +1,5 @@
+theme = "pika"
+
+long_uptime = true
+
+show = ["Host","Kernel","Shell", "Uptime", "DiskSpace","Processor", "Packages", "ProcessorLoad", "Memory", "GPU"] 

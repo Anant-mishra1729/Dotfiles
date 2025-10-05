@@ -1,0 +1,45 @@
+hide_ascii      = false
+spacing         = 1
+padding         = 2
+separator       = "➜"
+key_color       = "LightCyan"
+separator_color = "Yellow"
+
+[box]
+title           = " Pika-pi!! "
+border          = "rounded"
+visible         = true
+
+[box.inner_margin]
+x               = 2
+y               = 1
+
+[custom_ascii]
+color           = "#FFEE8C"
+path            = "~/.config/macchina/pikachu.txt"
+
+[randomize]
+key_color       = true
+separator_color = true
+
+[keys]
+host            = "  Host"
+kernel          = "󰌽  Kernel"
+battery         = "󰁹  Battery"
+os              = "  OS"
+de              = "  DE"
+wm              = "  WM"
+distro          = "  Distro"
+terminal        = "  Terminal"
+shell           = "  Shell"
+packages        = "  Packages"
+uptime          = "󰥔  Uptime"
+memory          = "  Memory"
+machine         = "󰇅  Machine"
+local_ip        = "󰱓  IP"
+backlight       = "󰃞  Brightness"
+resolution      = "󰍺  Resolution"
+cpu_load        = "󰊚  CPU Usage"
+cpu             = "  CPU"
+gpu             = "󰈐  GPU"
+disk_space      = "  Disk space"
